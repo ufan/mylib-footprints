@@ -1,0 +1,16 @@
+(footprint "Kailh_Choc_Edge" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 60AE46D7)
+  (descr "Kailh \"Choc\" PG1350 keyswitch, able to be mounted on front or back of PCB")
+  (tags "kailh,choc")
+  (attr through_hole)
+  (fp_text reference "SW21" (at 4.98 -5.69 180) (layer "Dwgs.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c531070e-757c-4228-ad78-437ab9be992c)
+  )
+  (fp_text value "SW_Push" (at -0.07 8.17 180) (layer "Dwgs.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 89615f8c-e49b-49ef-85df-960a0bd782c6)
+  )
+  (fp_rect (start -7 -7) (end 7 7) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 0afa0629-a2e2-43a6-908e-944ee3b9e6d0))
+)

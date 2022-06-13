@@ -1,0 +1,22 @@
+(footprint "MountingHole_2.2mm_M2" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 56D1B4CB)
+  (descr "Mounting Hole 2.2mm, no annular, M2")
+  (tags "mounting hole 2.2mm no annular m2")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -3.2) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dc2056a2-b435-49a9-87c3-92b59a9820c1)
+  )
+  (fp_text value "MountingHole_2.2mm_M2" (at 0 3.2) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 347f66c6-4249-472e-a04c-42781bfb8208)
+  )
+  (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 19caa7ff-874a-4439-8492-4636f686f273)
+  )
+  (fp_circle (center 0 0) (end 2.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 6da551c7-b11d-44e6-b08c-c70baeb6e2fa))
+  (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp b70aee28-64c6-4473-b267-bcf7f3819b4e))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp ab679ac3-1aa2-4209-9375-2d105818d36e))
+)
