@@ -1929,13 +1929,13 @@
           (xy 0.6 -1)
         ) (width 0) (fill yes))
     ) (tstamp 7ad8e8f6-7ccf-4b78-bf22-688f1c253b8a))
-  (model "/home/yong/kbd-src/footprint/3dmodels/ProMicro3.3V.step" hide
-    (offset (xyz 0.5 0 0))
+  (model "${MYLIB_DIR}/3dmodels/mcu/ProMicro-simple.stp" hide
+    (offset (xyz 0.5 1 4.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model "/home/yong/kbd-src/footprint/3dmodels/ARDUINO PRO MICRO.STEP"
-    (offset (xyz -7.5 14 5))
+  (model "${MYLIB_DIR}/3dmodels/mcu/ProMicro.stp"
+    (offset (xyz -7.5 14 4.8))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )

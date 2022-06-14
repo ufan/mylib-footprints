@@ -62,7 +62,7 @@
   (pad "S2" thru_hole circle (at -5 -6.3) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask) (tstamp f0e7897b-e0d3-4f6c-a922-624a6235472b))
   (pad "com" thru_hole circle (at -5.625 3.81) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask) (tstamp 831fc77d-1c6f-45fb-ad2b-1ebe959d02a8))
   (pad "com" thru_hole circle (at -5.625 -3.81) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask) (tstamp cdbaddf2-1ed0-40e0-afee-2e859009e08b))
-  (model "/home/yong/kbd-src/footprint/3dmodels/PanasonicEncoder.step"
+  (model "${MYLIB_DIR}/3dmodels/peripherals/Encoder_Horizontal_Panasonic.stp"
     (offset (xyz 8.7 -7.5 -3.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

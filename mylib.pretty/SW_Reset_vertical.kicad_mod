@@ -52,7 +52,7 @@
   (pad "2" smd rect (at 2.05 1.75) (size 0.5 1.3) (layers "B.Cu" "B.Mask") (tstamp 527bcf78-2646-495c-9ccf-c230938ff026))
   (pad "2" thru_hole oval (at 2.5 2.15) (size 1 0.6) (drill oval 0.6 0.3) (layers *.Cu *.Mask) (tstamp 6cdd8c77-5007-48fe-95dc-5f8a1799eabd))
   (pad "2" smd rect (at 2.05 1.75) (size 0.5 1.3) (layers "F.Cu" "F.Mask") (tstamp c58508dd-ad51-43c8-a542-1e95ca343644))
-  (model "/home/yong/kbd-src/footprint/3dmodels/tactile_switches/IT-1188E.STEP"
+  (model "${MYLIB_DIR}/3dmodels/tactile-switches/Reset-Vertical-IT-1188E.stp"
     (offset (xyz 0 -1.13 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

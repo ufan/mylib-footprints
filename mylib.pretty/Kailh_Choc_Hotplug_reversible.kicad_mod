@@ -44,23 +44,18 @@
   (pad "1" smd rect (at 3.275 -5.95) (size 2.6 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 62465e00-e555-4f00-aa8d-8808aaf594fd))
   (pad "2" smd rect (at -8.275 -3.75) (size 2.6 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 27b94f6a-b717-4088-8a06-be7d828c7351))
   (pad "2" smd rect (at 8.275 -3.75) (size 2.6 2.6) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp ea0baab2-e619-4714-b44e-383036622239))
-  (model "/home/yong/kbd-src/footprint/3dmodels/PG1350-socket.STEP"
+  (model "${MYLIB_DIR}/3dmodels/kailh/Kailh-PG1350-hotplug-socket.stp"
     (offset (xyz 10 5.9 -1.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/home/yong/kbd-src/footprint/3dmodels/SW_Kailh_Choc_V1step.step"
+  (model "${MYLIB_DIR}/3dmodels/kailh/Kailh-ChocV1.stp"
     (offset (xyz 0 0 2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
-  (model "/home/yong/kbd-src/footprint/3dmodels/Kailh Choc FunkMonk 1u.step" hide
+  (model "${MYLIB_DIR}/3dmodels/kailh/Cap-Kailh-ChocV1-FunkMonk-1u.stp"
     (opacity 0.3100)    (offset (xyz 0 0 1.8))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "/home/yong/kbd-src/footprint/3dmodels/Kailh LP Choc PC Keycap.step"
-    (opacity 0.1000)    (offset (xyz 0 0 1.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

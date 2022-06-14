@@ -44,7 +44,7 @@
   (fp_circle (center 0 0) (end 0.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp e02924fd-dc05-497f-b770-b36b9433a638))
   (pad "1" thru_hole rect (at -1.7 0) (size 0.9 1.7) (drill 0.3) (layers *.Cu *.Mask) (tstamp 3a1b650a-f1aa-4eae-a3b5-e34e65dedbfe))
   (pad "2" thru_hole rect (at 1.7 0) (size 0.9 1.7) (drill 0.3) (layers *.Cu *.Mask) (tstamp e5fb6209-9a5e-4c76-87ee-ad8f8ab2ed4c))
-  (model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
+  (model "${MYLIB_DIR}/3dmodels/tactile-switches/B3U-1000P.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
