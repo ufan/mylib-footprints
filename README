@@ -1,0 +1,5 @@
+A collection of kicad footprints, symbols and 3d models
+
+- clone or download
+- configure a path environmental variable 'MYLIB_DIR' in kicad
+- now, you're ready to go
